@@ -1,0 +1,16 @@
+/home/user/ros_workspace/sandbox/virtual_camera/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir
+/home/user/ros_workspace/sandbox/virtual_camera/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir
+/home/user/ros_workspace/sandbox/virtual_camera/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir
+/home/user/ros_workspace/sandbox/virtual_camera/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir
+/home/user/ros_workspace/sandbox/virtual_camera/build/CMakeFiles/clean-test-results.dir
+/home/user/ros_workspace/sandbox/virtual_camera/build/CMakeFiles/rosbuild_precompile.dir
+/home/user/ros_workspace/sandbox/virtual_camera/build/CMakeFiles/rosbuild_premsgsrvgen.dir
+/home/user/ros_workspace/sandbox/virtual_camera/build/CMakeFiles/rospack_genmsg.dir
+/home/user/ros_workspace/sandbox/virtual_camera/build/CMakeFiles/rospack_genmsg_libexe.dir
+/home/user/ros_workspace/sandbox/virtual_camera/build/CMakeFiles/rospack_gensrv.dir
+/home/user/ros_workspace/sandbox/virtual_camera/build/CMakeFiles/streamputer.dir
+/home/user/ros_workspace/sandbox/virtual_camera/build/CMakeFiles/test.dir
+/home/user/ros_workspace/sandbox/virtual_camera/build/CMakeFiles/test-future.dir
+/home/user/ros_workspace/sandbox/virtual_camera/build/CMakeFiles/test-results.dir
+/home/user/ros_workspace/sandbox/virtual_camera/build/CMakeFiles/test-results-run.dir
+/home/user/ros_workspace/sandbox/virtual_camera/build/CMakeFiles/tests.dir

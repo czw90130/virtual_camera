@@ -1,0 +1,6 @@
+#!/bin/bash 
+
+yuyv=`grep /dev data/yuyv_camera.txt | cut -d = -f2` &&
+yuy2=`grep /dev data/yuy2_camera.txt | cut -d = -f2` &&
+
+gst-launch v4l2src device=$yuyv ! ffmpegcolorspace ! video/x-raw-yuv,format=\(fourcc\)YUY2 ! v4l2sink device=$yuy2
