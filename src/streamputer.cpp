@@ -117,7 +117,7 @@ public:
     buffer = (__u8*)malloc(sizeof(__u8)*imageSize);
     memset(buffer, 0, imageSize);
 
-    image_sub_=it_.subscribe("camera/rgb/image_color", 1, &ImageConverter::imageCb, this);
+    image_sub_=it_.subscribe("image", 1, &ImageConverter::imageCb, this);
   }
 
   ~ImageConverter()
@@ -208,10 +208,8 @@ int main(int argc, char**argv)
   int fdwr = 0;
   int ret_code = 0;
 
-  int i;
-
-  ros::init(argc, argv, "streamputer");
-
+  ros::init(argc, argv, "streamputer", ros::init_options::AnonymousName);
+  
   ros::NodeHandle n;
   
   if(argc>1) 
@@ -281,6 +279,12 @@ int main(int argc, char**argv)
                         &framesize)) 
   {
     ROS_ERROR("unable to guess correct settings for format '%d'\n", FRAME_FORMAT);
+  }
+
+  if(ros::names::remap("image") == "image")
+  {
+    ROS_WARN("Topic 'image' has not been remapped! Typical command-line usage:\n"
+	     "\t$ rosrun virtual_camera streamputer image:=<image topic> [\\dev\\video<id>]");
   }
 
   

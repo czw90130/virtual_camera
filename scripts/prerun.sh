@@ -10,4 +10,3 @@ for((i=0;i<20;i++));do
 done
 
 echo "/dev/video$(($i-2))" > $(cd "$(dirname "$0")"; pwd)/../data/yuyv_camera.txt
-echo "/dev/video$(($i-1))" > $(cd "$(dirname "$0")"; pwd)/../data/yuy2_camera.txt
