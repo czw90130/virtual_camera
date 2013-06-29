@@ -1,6 +1,16 @@
 /*
-
- */
+* Copyright (c) 2013, Zhiwei Chu
+* All rights reserved.
+*
+* 文件名称/File name: streamputer.cpp.
+* 
+* 摘要/Summary：
+*    将ROS图像消息发送到一个虚拟摄像头上
+*    push ROS image messages into a virtual video device
+*
+* 当前版本/Version：1.0
+*
+*/
 
 #include <linux/videodev2.h>
 #include <sys/ioctl.h>
