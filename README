@@ -37,7 +37,7 @@ Virtual video device information:
 
 输出格式/Format：YUYV
 画面宽度/Width：640
-画面高度/Hight：480
+画面高度/High：480
 单帧大小/bytes per frame：614400 字节(byte)
 
 注意：所有的尺寸的图像消息(sensor_msgs/Image)都会重新定义为640*480
